@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetLens - Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            color: #e4e4e7;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        .logo svg {
+            width: 48px;
+            height: 48px;
+            fill: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: #a1a1aa;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #f4f4f5;
+        }
+
+        .card p {
+            color: #a1a1aa;
+            margin-bottom: 12px;
+        }
+
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            border: 1px solid rgba(102, 126, 234, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #a1a1aa;
+            margin-bottom: 8px;
+        }
+
+        .email-link {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .email-link:hover {
+            color: #764ba2;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .faq-item:first-child {
+            padding-top: 0;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #f4f4f5;
+            margin-bottom: 8px;
+        }
+
+        .faq-answer {
+            color: #a1a1aa;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #71717a;
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 40px 16px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+            </div>
+            <h1>NetLens Support</h1>
+            <p class="subtitle">We're here to help</p>
+        </header>
+
+        <div class="card">
+            <h2>📧 Contact Us</h2>
+            <p>If you have any questions, feedback, or issues with NetLens, please don't hesitate to reach out to us.</p>
+            <div class="contact-box">
+                <h3>Email Support</h3>
+                <a href="mailto:646055204@QQ.com" class="email-link">646055204@QQ.com</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>❓ Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <p class="faq-question">What is NetLens?</p>
+                <p class="faq-answer">NetLens is a comprehensive network diagnostics and utility app that provides tools like Ping, DNS Lookup, Port Scanner, Speed Test, and more. It's designed for IT professionals, developers, and anyone who needs to troubleshoot network issues.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Why does NetLens need location permission?</p>
+                <p class="faq-answer">Location permission is required by iOS to access WiFi network information (SSID and BSSID). This is an Apple requirement and NetLens does not collect or store your location data.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Why can't I see my WiFi name (SSID)?</p>
+                <p class="faq-answer">Please make sure you've granted location permission to the app. On iOS, go to Settings > Privacy > Location Services > NetLens and select "While Using the App".</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Is my data secure?</p>
+                <p class="faq-answer">Yes. All your data (history, saved hosts, favorites) is stored locally on your device. We do not collect, transmit, or store any of your personal information on external servers.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I report a bug?</p>
+                <p class="faq-answer">Please send an email to 646055204@QQ.com with a description of the issue, your device model, and iOS version. Screenshots are helpful!</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📱 App Information</h2>
+            <p><strong>App Name:</strong> NetLens</p>
+            <p><strong>Current Version:</strong> 1.0.0</p>
+            <p><strong>Platforms:</strong> iOS, Android, macOS, Windows, Linux, Web</p>
+            <p><strong>Developer:</strong> NetLens Team</p>
+        </div>
+
+        <footer class="footer">
+            <p>© 2025 NetLens. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
